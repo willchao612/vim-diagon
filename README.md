@@ -11,7 +11,8 @@ Vim wrapper of Diagon API to generate simple Unicode or ASCII diagrams
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Mappings](#mappings)
+  - [Options](#options)
+  - [Mappings](#mappings)
 - [Credits](#credits)
 - [License](#license)
 
@@ -38,7 +39,17 @@ documentation for a detailed explanation on its syntax, types and options.
 
 Command `Diagon` accepts a range, if not given then defaults to current line.
 
-## Mappings
+### Options
+
+* **g:diagon_use_echo**
+
+Default 0. Use echo instead of replacing original text directly.
+
+```vim
+let g:diagon_use_echo = 1
+```
+
+### Mappings
 
 No default predefined mappings are provided. You can remap commands to your
 need.
