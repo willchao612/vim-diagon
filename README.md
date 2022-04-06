@@ -1,3 +1,12 @@
+<small>
+This was my first plugin mainly for practice, so it doesn't contain much
+functionality other than one command. Please use and star it if you like it, but
+it won't be in active development in the near future. If you would like some new
+features, don't hesitate to open an issue or PR.
+</small>
+
+---
+
 ![](https://i.imgur.com/0zo22qu.gif)
 
 # Vim Diagon
@@ -11,8 +20,8 @@ Vim wrapper of Diagon API to generate simple Unicode or ASCII diagrams
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-  - [Options](#options)
-  - [Mappings](#mappings)
+- [Options](#options)
+- [Mappings](#mappings)
 - [Credits](#credits)
 - [License](#license)
 
@@ -39,17 +48,15 @@ documentation for a detailed explanation on its syntax, types and options.
 
 Command `Diagon` accepts a range, if not given then defaults to current line.
 
-### Options
+## Options
 
-* **g:diagon_use_echo**
-
-Default 0. Use echo instead of replacing original text directly.
+* Use echo instead of replacing original text directly. Default 0.
 
 ```vim
 let g:diagon_use_echo = 1
 ```
 
-### Mappings
+## Mappings
 
 No default predefined mappings are provided. You can remap commands to your
 need.
